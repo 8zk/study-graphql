@@ -1,15 +1,18 @@
 {
   "name": "study-graphql",
   "version": "0.1.0",
+  "homepage": "https://8zk.github.io/study-graphql",
   "private": true,
   "dependencies": {
     "@octokit/graphql": "^3.0.1",
-    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "styled-components": "^4.4.0",
     "styled-reset": "^4.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
