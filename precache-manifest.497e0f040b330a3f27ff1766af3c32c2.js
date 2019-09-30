@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce791760b14ee2adf26076b62b95cf04",
+    "revision": "ed95a61a92ea35b93884bc8b3a84feba",
     "url": "/study-graphql/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/study-graphql/static/js/2.1ba3d171.chunk.js"
   },
   {
-    "revision": "47e673c660424bf186bc",
-    "url": "/study-graphql/static/js/main.7ad546d4.chunk.js"
+    "revision": "9c1da84d2d2dc6187e03",
+    "url": "/study-graphql/static/js/main.502595ed.chunk.js"
   },
   {
     "revision": "73c8ef98fb5adb002732",
