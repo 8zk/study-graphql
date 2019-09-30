@@ -5,26 +5,6 @@ import github from "./github.png";
 import search from "./search.png";
 import request from "./request";
 
-const GlobalStyle = createGlobalStyle`
-  ${reset}
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  a {
-    color: initial;
-    text-decoration: none;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: #282c34;
-  }
-`;
-
 function App() {
   const [keyword, setKeyword] = useState("");
   const [repositories, setRepositories] = useState([]);
@@ -92,6 +72,25 @@ function App() {
   );
 }
 
+const GlobalStyle = createGlobalStyle`
+  ${reset}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  a {
+    color: initial;
+    text-decoration: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #282c34;
+  }
+`;
 const Container = styled.div`
   margin: 0 auto;
   width: 100%;
